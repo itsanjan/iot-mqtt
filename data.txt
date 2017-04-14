@@ -1,0 +1,1 @@
+{"Temperature": 44, "System": "Lenovo L420"}
