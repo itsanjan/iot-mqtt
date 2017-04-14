@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#-------------------------------#
+# File name: mqtt-sub.py
+# Author: Anjan Kumar
+# Date created: 14/04/2017
+# Date last modified: 15/04/2017
+# Python Version: 3.5.2
+#-------------------------------#
 import paho.mqtt.client as paho
  
 def on_subscribe(client, userdata, mid, granted_qos):
