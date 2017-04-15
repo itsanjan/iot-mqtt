@@ -20,7 +20,7 @@ client.on_publish=on_publish
 client.connect("broker.mqttdashboard.com",1883)
 client.loop_start()
 
-def push():
+while True:
     senseOP=utils.loadPayload()
     print(senseOP)
     system      = str(senseOP["System"])

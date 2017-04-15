@@ -1,1 +1,1 @@
-{"Temperature": 44, "System": "Lenovo L420"}
+{"System": "Lenovo L420", "Temperature": 41}

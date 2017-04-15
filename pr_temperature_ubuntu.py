@@ -27,5 +27,6 @@ def Log():
                     'System'        :systemName
                 }
     utils.makePayload(senseData)
-    sleep(1)
-
+    sleep(100)
+while True:
+	Log()
